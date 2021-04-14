@@ -32,7 +32,9 @@ With everything that's been happening at Launch, there's so much to do at home! 
 
 1. You need to plan your run and to do so, you've created a `streets.json` to include the distances for the roads on your run. Load that into your script as a `HashMap`.
 
-2. You want to calculate how long certain paths are. Load Option 1 in as an `ArrayList`.
+We want to have different routes we can compare:
+
+2. Load Option 1 in as an `ArrayList`.
 
 - South Street
 - Forest Street
@@ -47,6 +49,6 @@ With everything that's been happening at Launch, there's so much to do at home! 
 - Sally Way
 - South Street
 
-4. Write a method that takes one of these routes as an `ArrayList` and returns the total run distance.
+4. Write a method that takes in an `ArrayList` of the route and a `HashMap` of the streets and distances and returns the total run distance from the streets in the `ArrayList`
 
 5. Invoke this method for both routes and output the distances.
