@@ -1,0 +1,11 @@
+Tomato, 50
+Romaine Lettuce, 150
+Onion, 75
+Banana, 79
+Frozen Pizza, 425
+12 Oz Gatorade, 179
+Coffee, 1299
+Seltzer 2L Bottles, 115
+Loaf of Bread, 99
+Cereal, 239
+Gallon of Milk, 249
