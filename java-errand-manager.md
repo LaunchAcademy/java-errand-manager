@@ -12,11 +12,11 @@ With everything that's been happening at Launch, there's so much to do at home! 
 
 1. You've saved your tasks to `todo.txt` - read that file in and load each task into an `ArrayList`.
 
-2. You need to go to the ATM to take out cash to pay for groceries. Add that to the list right before buying groceries.
+2. You need to go to the ATM to take out cash to pay for groceries. Add `"go to the ATM"` to the list right before `"buy groceries"`.
 
-3. Whoops! You realize you want to keep track of whether you've completed each task, so using your previously created ArrayList of tasks, create a `HashMap` where the key is the task name and the value starts as "pending".
+3. Whoops! You realize you want to keep track of whether you've completed each task, so using your previously created ArrayList of tasks, create a `HashMap` where the key is the task name and the value starts as `"pending"`.
 
-4. You realize that you were able to trim the hedges last weekend, so mark that item as "complete" in the `HashMap`.
+4. You realize that you were able to trim the hedges last weekend, so mark the `"trim hedges"` task as `"complete"` in the `HashMap`.
 
 5. You need to build a grocery list - read in `groceries.json` and create a new `HashMap` to keep track of everything you have to buy, where the name of the grocery is the key, and the quantity is stored as the value. Be sure to store the values as `Integer` objects.
 
@@ -24,9 +24,9 @@ With everything that's been happening at Launch, there's so much to do at home! 
 
 7. You need to know how much money to take out of the ATM. You find an old receipt and you've inputted all of the prices into `grocery_prices.json`. You've entered the price of each item in cents. Load `grocery_prices.json` in as a `HashMap` with the appropriate data types for the key and value.
 
-8. Calculate the subtotal for everything you have to buy.
+8. Calculate the subtotal for everything you have to buy. Remember to take both the price and quantity into account.
 
-9. Update your action item around going to the ATM to include how much money to withdraw.
+9. Update your `"go to the ATM"` task to include how much money to withdraw.
 
 ## (Time Permitting) Planning your run...
 
@@ -34,20 +34,20 @@ With everything that's been happening at Launch, there's so much to do at home! 
 
 We want to have different routes we can compare:
 
-2. Load Option 1 in as an `ArrayList`.
+2. Create an `ArrayList` to represent one running route and fill it with the following strings.
 
-- South Street
-- Forest Street
-- Vernon Street
-- South Street
+- "South St"
+- "Forest St"
+- "Vernon St"
+- "South St"
 
-3. Load Option 2 in as an `ArrayList` - note that if we run up Sally Way, we have to turn back, so we intentionally list it twice.
+3. Create an `ArrayList` to represent another running route and fill it with the following strings - note that if we run up Sally Way, we have to turn back, so we intentionally list it twice.
 
-- South Street
-- Forest Street
-- Sally Way
-- Sally Way
-- South Street
+- "South St"
+- "Forest St"
+- "Sally Way"
+- "Sally Way"
+- "South St"
 
 4. Write a method that takes in an `ArrayList` of the route and a `HashMap` of the streets and distances and returns the total run distance from the streets in the `ArrayList`
 
