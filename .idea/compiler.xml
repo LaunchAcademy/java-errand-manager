@@ -9,8 +9,5 @@
         <module name="java-errand-manager" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java-errand-manager" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
